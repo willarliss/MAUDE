@@ -1,7 +1,10 @@
 # MAUDE
-This project is an exploration of big data using the Manufacturer and User Facility Device Experience (MAUDE) medical database. Pulling from multiple subsets of the MAUDE database, device manufacturers with inordinately high instances of deadly failures are identified. The goal is to analyze device failures reported around the world.
 
-The database file is not uploaded due to size. Please contact for full .db file. Alternatively, db_form.py will builid the database if the MAUDE data is saved in a folder named "device" in the same directory. The data is accessible from the following link: [FDA.gov](https://www.fda.gov/medical-devices/mandatory-reporting-requirements-manufacturers-importers-and-device-user-facilities/manufacturer-and-user-facility-device-experience-database-maude). It comes in zipped folders with the following names: 
+---
+
+This project is a statistical exploration of the Manufacturer and User Facility Device Experience (MAUDE) medical database. Over 9 million device failure reports were pulled from multiple subsets of the MAUDE database in order to identify the manufacturers with inordinately high instances of deadly failures. The goal is to analyze device failures reported around the world.
+
+The database file is not uploaded due to size. Please contact for full .db file. Alternatively, db_form.py will build the database if the MAUDE data is saved in a folder named "device" in the same directory. The data are accessible from the following link: [FDA.gov](https://www.fda.gov/medical-devices/mandatory-reporting-requirements-manufacturers-importers-and-device-user-facilities/manufacturer-and-user-facility-device-experience-database-maude). It comes in zipped folders with the following names: 
  - patientthru2019.zip
  - mdrfoithru2019.zip 
  - foidev1998.zip
